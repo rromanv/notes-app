@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.2",
+    "@vueuse/core": "^4.6.3",
     "@vueuse/motion": "^1.5.3",
     "vue": "^3.0.5"
   },

@@ -1,3 +1,3 @@
-import { ref } from 'vue'
+import { useToggle } from '@vueuse/core'
 
-export const showForm = ref(false)
+export const [show, toggleShow] = useToggle(false)
