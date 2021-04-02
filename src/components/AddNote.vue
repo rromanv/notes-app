@@ -8,7 +8,7 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        class="w-24 h-24 opacity-40"
+        class="w-24 h-24 opacity-40 transform transition-all hover:scale-125"
       >
         <path
           stroke-linecap="round"

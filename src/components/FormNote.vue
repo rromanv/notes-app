@@ -1,6 +1,13 @@
 <template>
   <div
-    class="absolute inset-0 w-screen h-screen flex justify-center items-center bg-purple-900"
+    v-motion
+    :initial="{
+      y: 100,
+    }"
+    :enter="{
+      y: 0,
+    }"
+    class="absolute inset-0 w-screen h-screen flex justify-center items-center bg-purple-900 overflow-hidden"
   >
     <button @click="showForm = false">
       <svg
